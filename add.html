@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+</head>
+<body>
+    <h1>Simpl!Learn Course </h1>
+    <div>
+    <form class="form" action="/add" method="POST">
+        <!-- Course ID : <input type="number" name="cid" id="cid" > <br />
+        Updated Amount : <input type="number" name="price" id="price" > <br />
+       -->
+        <div class="form-group">
+            <label for="Course Delete">Course ID </label>
+            <input type="number" class="form-control" id="cid" name="cid" aria-describedby="" placeholder="">
+            <small id="" class="form-text text-muted">Enter Course Identity </small>
+          </div>
+
+          <div class="form-group">
+            <label for="Course Delete">Course Name </label>
+            <input type="text" class="form-control" id="cname" name="cname" aria-describedby="" placeholder="">
+            <small id="" class="form-text text-muted">Enter Course Name </small>
+          </div>
+    
+          <div class="form-group">
+            <label for="Course Delete">Course Description </label>
+            <input type="text" class="form-control" id="desc" name="desc" aria-describedby="" placeholder="">
+            <small id="" class="form-text text-muted">Enter Course Description</small>
+          </div>
+       
+          <div class="form-group">
+            <label for="Course Amount">Amount</label>
+            <input type="number" class="form-control" id="amount" name="amount" aria-describedby="" placeholder="">
+            <small id="" class="form-text text-muted">Enter Updated Amount</small>
+          </div>
+      
+        <br />
+        <button type="submit" class="btn btn-primary">Store</button>
+        <button type="reset" class="btn btn-primary">Reset</button>
+    </form>
+
+    </div>
+
+</body>
+</html>
